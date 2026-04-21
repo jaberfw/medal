@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Gallery - Medal Gifts. Browse our portfolio of custom medals, lapel pins, coins, badges, key rings, bottle openers, belt buckles, wings, cap badges and more.">
+  <title>Gallery | Medal Gifts</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">🏅</div>
+        <h1>Medal Gifts<span>Premium Metal Crafts</span></h1>
+      </a>
+      <nav class="nav-menu" id="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="gallery.html" class="nav-link active">Gallery</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <!-- Page Hero -->
+  <div class="page-hero">
+    <h1>Our Portfolio</h1>
+    <p>Custom metal products crafted with precision and passion</p>
+  </div>
+
+  <main class="gallery-page">
+    <div class="container">
+
+      <!-- Filter Bar -->
+      <div class="filter-bar">
+        <button class="filter-btn active" data-category="all">All</button>
+        <button class="filter-btn" data-category="medal">Medal</button>
+        <button class="filter-btn" data-category="lapel-pin">Lapel Pin</button>
+        <button class="filter-btn" data-category="bottle-opener">Bottle Opener</button>
+        <button class="filter-btn" data-category="key-ring">Key Ring</button>
+        <button class="filter-btn" data-category="coin">Coin</button>
+        <button class="filter-btn" data-category="belt-buckle">Belt & Buckle</button>
+        <button class="filter-btn" data-category="tag">Soldier / Animal Tag</button>
+        <button class="filter-btn" data-category="wing">Wing</button>
+        <button class="filter-btn" data-category="cap-badge">Cap Badge</button>
+        <button class="filter-btn" data-category="badge">Badge</button>
+      </div>
+
+      <!-- Product Grid -->
+      <div id="product-grid" class="product-grid"></div>
+
+      <!-- Pagination -->
+      <div id="pagination" class="pagination"></div>
+
+    </div>
+  </main>
+
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span id="modal-close" class="modal-close">&times;</span>
+      <img id="modal-image" src="" alt="" class="modal-image">
+      <div class="modal-info">
+        <h2 id="modal-title"></h2>
+        <span id="modal-category-label" class="category-label"></span>
+        <p id="modal-description"></p>
+        <a href="contact.html" class="btn btn-primary" style="margin-top:1.5rem;display:inline-block;">Request This Item</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h3>Medal Gifts<span>Premium Metal Crafts</span></h3>
+          <p>Premium custom metal products crafted with precision — medals, pins, coins, badges & more.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigate</h4>
+          <a href="index.html">Home</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Products</h4>
+          <a href="gallery.html?category=medal">Medals</a>
+          <a href="gallery.html?category=lapel-pin">Lapel Pins</a>
+          <a href="gallery.html?category=coin">Coins</a>
+          <a href="gallery.html?category=badge">Badges</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <a href="mailto:mdjaberali7@gmail.com">mdjaberali7@gmail.com</a>
+          <a href="https://wa.me/8801515280340" target="_blank">+880 1515 280340</a>
+          <a href="https://fb.com/metalgifts" target="_blank">Facebook</a>
+          <a href="https://www.fiverr.com/s/e6491gD" target="_blank">Fiverr</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Medal Gifts. All rights reserved.</p>
+        <div class="footer-social">
+          <a href="https://fb.com/metalgifts" target="_blank">f</a>
+          <a href="https://wa.me/8801515280340" target="_blank">W</a>
+          <a href="https://www.fiverr.com/s/e6491gD" target="_blank">Fi</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
